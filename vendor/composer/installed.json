@@ -1,0 +1,49 @@
+{
+    "packages": [
+        {
+            "name": "steveclifton/phpcsrftokens",
+            "version": "v1.4",
+            "version_normalized": "1.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/steveclifton/phpcsrftokens.git",
+                "reference": "fa1ac56829549e4076241a1038f14f0a71b011e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/steveclifton/phpcsrftokens/zipball/fa1ac56829549e4076241a1038f14f0a71b011e8",
+                "reference": "fa1ac56829549e4076241a1038f14f0a71b011e8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2019-03-03T04:45:24+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "steveclifton\\phpcsrftokens\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve",
+                    "email": "steve.clifton@outlook.com"
+                }
+            ],
+            "description": "Simple PHP CSRF token generator and verifier",
+            "support": {
+                "issues": "https://github.com/steveclifton/phpcsrftokens/issues",
+                "source": "https://github.com/steveclifton/phpcsrftokens/tree/master"
+            },
+            "install-path": "../steveclifton/phpcsrftokens"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
